@@ -5,6 +5,14 @@ the intellient systems subdivision for the robotics team at SJSU. The purpose
 of this project was to ensure that we were able to use computer vision to detect
 tennis balls.
 
+## How to run the application
+
+1. Download opencv for python by using the "pip install opencv-python" command
+2. Clone/download source files, this includes the data folder as well
+3. Navigate to the files and run it using your IDE
+4. To test out the different test cases, replace the "batchtwo2.JPEG" on line 6
+   with another file from the data folder.
+
 ## How the program works
 
 ### Core Functionality
