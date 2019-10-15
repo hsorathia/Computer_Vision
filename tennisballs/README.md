@@ -11,7 +11,7 @@ tennis balls.
 2. Clone/download source files, this includes the data folder as well
 3. Navigate to the files and run it using your IDE
 4. To test out the different test cases, replace the "batchtwo2.JPEG" on line 6
-   with another file from the data folder.
+   with another file from the data folder
 
 ## How the program works
 
@@ -21,7 +21,7 @@ The method I used to detect tennis balls was to use their color in my favor.
 To begin, first I apply an HSV filter on the image and mask it such that the
 only color that remains is the green of the tennis ball. To do this, I use two
 numpy array that hold the lower and upper bound of the color of the green of the
-tennis balls.
+tennis balls
 
 ```Python
 low_green = np.array([28, 47, 47])
