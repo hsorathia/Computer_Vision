@@ -14,7 +14,7 @@ blurred = cv.GaussianBlur(image, (11, 11), 0)
 hsv = cv.cvtColor(blurred, cv.COLOR_BGR2HSV)  # convert to HSV
 # makes it so we only see the green color that we changed
 mask = cv.inRange(hsv, low_green, high_green)
-# smoothens out the picture
+# removes the little blobs in the picture
 mask = cv.erode(mask, None, iterations=2)
 # removes most of the little blobs in the picture
 mask = cv.dilate(mask, None, iterations=2)
